@@ -1,0 +1,212 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "7efc7155-21aa-4968-83fa-6521d003f14c")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 38.1 40.64) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926d2b64-48a9-47b8-bfd8-348fb4ad5c41")
+	)
+	(bus
+		(pts
+			(xy 76.2 43.18) (xy 88.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ecdf11-69f5-42ce-af7a-8491b7de17c2")
+	)
+	(sheet
+		(at 50.8 38.1)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a6f55951-48ef-4a70-830b-c06e76cc1b3e")
+		(property "Sheetname" "CS4344"
+			(at 50.8 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cs4344.kicad_sch"
+			(at 50.8 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AOUT{R L}" output
+			(at 76.2 43.18 0)
+			(uuid "dc743d31-4a9b-4c78-bfb4-950b2b34e184")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SAI2B{SD SCK FS MCLK}" input
+			(at 50.8 40.64 180)
+			(uuid "115c302a-5656-465a-82ea-25e32ee0132f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CS4344"
+				(path "/7efc7155-21aa-4968-83fa-6521d003f14c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 38.1)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d2418071-9275-49bf-a640-51f6ec543665")
+		(property "Sheetname" "Connector"
+			(at 12.7 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 12.7 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SAI2B{SD SCK FS MCLK}" output
+			(at 38.1 40.64 0)
+			(uuid "5e3d7526-2553-4e8c-bb2f-6cd37ac1330c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CS4344"
+				(path "/7efc7155-21aa-4968-83fa-6521d003f14c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 38.1)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e55a9b8e-8145-47ab-b8cb-a4f6fb3c1b92")
+		(property "Sheetname" "Jack"
+			(at 88.9 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jack.kicad_sch"
+			(at 88.9 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AOUT{R L}" input
+			(at 88.9 43.18 180)
+			(uuid "c0729257-842a-44a8-b026-411d6aebc8b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CS4344"
+				(path "/7efc7155-21aa-4968-83fa-6521d003f14c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
