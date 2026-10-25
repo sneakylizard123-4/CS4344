@@ -1,0 +1,19 @@
+Item,Qty,Reference,Value,Description,Package,Supplier,Part Number,Unit Price (USD),Line Total (USD),Link
+1,1,U1,CS4344,24-bit 192 kHz stereo I2S DAC,TSSOP-10,LCSC,C8952,1.5154,1.5154,https://www.lcsc.com/product-detail/C8952.html
+2,1,J1,SJ-3523-SMT-TR,3.5 mm stereo audio jack SMD,SMD,Digi-Key,CP-3523SJCT-ND,0.8800,0.8800,https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SJ-3523-SMT-TR/281297
+3,1,J2,1x6 2.54 mm female header,6-pin 2.54 mm through-hole socket,THT,LCSC,C40877,0.0889,0.0889,https://www.lcsc.com/product-detail/C40877.html
+4,1,C1,10 uF,10 uF 10 V X5R 0603 capacitor,0603,LCSC,C19702,0.0272,0.0272,https://www.lcsc.com/product-detail/C19702.html
+5,1,C2,100 nF,100 nF 50 V X7R 0603 capacitor,0603,LCSC,C14663,0.0084,0.0084,https://www.lcsc.com/product-detail/C14663.html
+6,1,C3,1 uF,1 uF 50 V X5R 0603 capacitor,0603,LCSC,C15849,0.0146,0.0146,https://www.lcsc.com/product-detail/C15849.html
+7,1,C4,10 uF,10 uF 10 V X5R 0603 capacitor,0603,LCSC,C19702,0.0272,0.0272,https://www.lcsc.com/product-detail/C19702.html
+8,1,C5,100 nF,100 nF 50 V X7R 0603 capacitor,0603,LCSC,C14663,0.0084,0.0084,https://www.lcsc.com/product-detail/C14663.html
+9,1,C6,3.3 uF,3.3 uF 10 V X5R 0603 capacitor,0603,LCSC,C51412,0.0601,0.0601,https://www.lcsc.com/product-detail/C51412.html
+10,1,C7,3.3 uF,3.3 uF 10 V X5R 0603 capacitor,0603,LCSC,C51412,0.0601,0.0601,https://www.lcsc.com/product-detail/C51412.html
+11,1,R1,10 k,10 k 1% 0603 resistor,0603,LCSC,C25804,0.0022,0.0022,https://www.lcsc.com/product-detail/C25804.html
+12,1,R2,10 k,10 k 1% 0603 resistor,0603,LCSC,C25804,0.0022,0.0022,https://www.lcsc.com/product-detail/C25804.html
+13,1,R3,470,470 ohm 1% 0603 resistor,0603,LCSC,C23179,0.0023,0.0023,https://www.lcsc.com/product-detail/C23179.html
+14,1,R4,470,470 ohm 1% 0603 resistor,0603,LCSC,C23179,0.0023,0.0023,https://www.lcsc.com/product-detail/C23179.html
+15,5,PCB,CS4344 PCB,2-layer 1.6 mm FR-4 PCB 18.5 x 25 mm (minimum order 5),-,JLCPCB,CS4344,0.4000,2.0000,https://jlcpcb.com/
+16,1,HW1,M2 x 8 mm screw,"M2 x 8 mm self-tapping screw, 10-pack (4 used)",M2,Motion RC,BCT5040-022,1.0900,1.0900,https://motionrc.com/products/benchcraft-2mm-x-8mm-self-tapping-screws-10-pack-bct5040-022
+,,,,SUBTOTAL (electronics),,,,,2.6993,
+,,,,"TOTAL (electronics + 5 PCBs + screws, excl. shipping and tax)",,,,,5.7893,
